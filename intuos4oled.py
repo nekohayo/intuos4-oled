@@ -30,6 +30,7 @@ DEFAULT_FONT = "Ubuntu-R.ttf"
 WACOM_ID = 0x056a
 # https://github.com/linuxwacom/input-wacom/wiki/Device-IDs
 USB_IDS = [
+    ((WACOM_ID, 0x00b8), "PTK-440", "Intuos4", "(4x6)"),
     ((WACOM_ID, 0x00b9), "PTK-640", "Intuos4", "(6x9)"),
     ((WACOM_ID, 0x00ba), "PTK-840", "Intuos4", "(8x13)"),
     ((WACOM_ID, 0x00bb), "PTK-1240", "Intuos4", "(12x19)"),
